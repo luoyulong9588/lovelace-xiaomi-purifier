@@ -1,3 +1,44 @@
+fork 自https://github.com/iwzoo/lovelace-xiaomi-purifier
+
+###  小米空气循环扇的属性有变化，导致原插件不能使用。修改适合小米空气循环扇，功能及使用方法同源码。
+
+
+```angular2html
+
+preset_modes: Auto, Sleep, Favorite
+preset_mode: Auto
+model: zhimi.airp.rma3
+lan_ip: 192.168.4.201
+mac_address: D4:F0:EA:52:90:F0
+entity_class: MiotFanEntity
+home_room: 大学时代 客厅
+miot_type: urn:miot-spec-v2:device:air-purifier:0000A007:zhimi-rma3:1
+air_purifier.on: true
+air_purifier.fault: 0
+air_purifier.mode: 0
+aqi.aqi_updata_heartbeat: 300
+custom_service.moto_speed_rpm: 420
+filter_used_time_dbg-9-2: 456
+air_purifier_favorite.fan_level: 4
+physical_controls_locked: false
+screen.brightness: 1
+alarm: true
+filter.filter_life_level: 87
+filter.filter_used_time: 456
+filter.filter_left_time: 126
+environment.relative_humidity: 73
+environment.pm2_5_density: 13
+environment.temperature: 11
+environment.air_quality: 0
+state_updater: lan
+sub_entities: custom_service-9.moto_speed_rpm-1, alarm-6.alarm-1, screen-7.brightness-2, environment-3.relative_humidity-1, environment-3.pm2_5_density-4, environment-3.temperature-7, environment-3.air_quality-8, filter-4.filter_life_level-1, filter-4.filter_used_time-3, filter-4.filter_left_time-4, physical_controls_locked-8.physical_controls_locked-1
+friendly_name: Xiaomi Smart Air Purifier 4 Lite Air Purifier
+supported_features: 56
+
+
+```
+
+
 # lovelace-xiaomi-purifier
 Xiaomi Purifier lovelace card with css animation
 
