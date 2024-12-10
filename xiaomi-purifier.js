@@ -7,12 +7,9 @@ class XiaomiPurifier extends HTMLElement {
       'Unhealthy': '中度污染',
       'Very Unhealthy': '重度污染',
       'Hazardous': '严重污染',
-
       'Air Purifier': '空气净化器',
-
       'On': '开启',
       'Off': '关闭',
-
       'Set speed': '设置速度',
       'Device turned on': '开启设备',
       'Device turned off': '关闭设备',
