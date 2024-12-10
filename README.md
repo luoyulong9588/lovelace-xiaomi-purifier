@@ -1,6 +1,6 @@
 fork 自https://github.com/iwzoo/lovelace-xiaomi-purifier
 
-###  小米空气循环扇的属性有变化，导致原插件不能使用。修改适合小米空气循环扇，功能及使用方法同源码。
+###  小米空气净化器4Lite的属性有变化，导致原插件不能使用。修改适合小米空气净化器4Lite，功能及使用方法同源码。
 
 
 ```angular2html
